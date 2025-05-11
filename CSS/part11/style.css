@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+    border: solid yellowgreen 2px;
+    background-color:aquamarine;
+    width:80%;
+    /* 80 % of its parent i.e body(page) */
+}
+.child{
+    border: solid rgb(205, 60, 50) 2px;
+    background-color:rgb(129, 127, 255);
+    width: 50%; 
+    /* 50 % of its parent i.e div parent tag */
+}
+
+.container{
+    border: solid rgb(60, 205, 50) 1px;
+    background-color:beige;
+    height: 50vh;
+    width: 60vw;
+}
+
+.box{
+    border: solid rgb(205, 50, 205) 1px;
+    background-color:rgba(245, 236, 220, 0.798);
+    height: 250px;
+    width: 600px;
+}
+
+.classAparent{
+
+    border: solid red 2px;
+    background-color: bisque;
+    font-size: 8px;
+
+}
+.classBchild{
+
+    font-size: 5em;
+
+}
+
+.classlast{
+    border: solid green 2px;
+    background-color: royalblue;
+    font-size: 4rem;
+}

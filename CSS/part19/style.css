@@ -1,0 +1,40 @@
+.container{
+    background-color:blanchedalmond;
+    width:800px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    background-color:aquamarine;
+
+    /* box-shadow: 5px 5px red; */
+
+    /* box-shadow: +-x +-y blur-radius spread-radius color; */
+
+    /* box-shadow: 5px 5px 3px 10px brown; */
+
+    /* box-shadow: -2px -3px 5px red; */
+
+    /* for inside shadow */
+
+    /* box-shadow: inset 3px 3px yellow; */
+
+    box-shadow: 10px 10px 2px rgb(128, 0, 117) , 20px 20px 2px blue ,  25px 25px 2px yellow;
+}
+
+#heading1{
+    /* text-shadow: +-x +-y blur radius color; */
+    /* text-shadow: 2px 2px 3px rgb(249, 246, 35); */
+
+    text-shadow: 2px 2px 3px green, -2px -2px 3px yellow;
+
+}

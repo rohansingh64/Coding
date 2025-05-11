@@ -1,0 +1,147 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "Playfair Display", serif;
+}
+
+.container {
+   width: 100%;
+   height: 100%;
+   background-color: ghostwhite;
+   position: sticky;
+}
+
+.header {
+   width: 100%;
+   min-height: 85px;
+   padding: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: #020024;
+   background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgb(0, 102, 255) 100%
+   );
+}
+
+.name {
+   margin-left: 30px;
+   font-size: 2.5rem;
+   font-weight: bolder;
+   color: azure;
+}
+
+.navlist {
+   margin-right: 80px;
+}
+
+a {
+   font-size: 2.1rem;
+   font-weight: bolder;
+   color: azure;
+   text-decoration: none;
+   margin-left: 25px;
+}
+
+.content {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+
+.contentbox {
+   width: 60%;
+   margin: auto;
+   padding: 20px;
+   box-shadow: -15px 0 15px rgba(0, 0, 0, 0.2), 15px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.item {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 20px;
+   margin-top: 50px;
+   margin-bottom: 80px;
+}
+
+.item h2 {
+   font-size: 2.5rem;
+   font-weight: 500;
+}
+
+.item p {
+   font-size: 1.3rem;
+}
+
+.info {
+   padding: 20px;
+}
+
+/* for overlay */
+
+.picBox {
+   width: 250px;
+   height: 400px;
+   position: relative;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+   transition-property: all;
+   transition-timing-function: linear;
+}
+
+.picBox img {
+   width: 100%;
+   height: 100%;
+   border-radius: 20px;
+}
+
+.picBox .overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-color: rgba(53, 52, 52, 0.708);
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   opacity: 0;
+}
+
+.picBox .overlay p {
+   color: aliceblue;
+}
+
+.picBox:hover {
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.picBox:hover .overlay {
+   opacity: 1;
+}
+
+.footer {
+   width: 100%;
+   min-height: 60px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #020024;
+   background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgb(0, 98, 255) 100%
+   );
+   font-size: 2rem;
+   font-weight: bolder;
+   color: azure;
+}

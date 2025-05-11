@@ -1,0 +1,20 @@
+#p1,#p3{
+    font-style: italic;
+}
+
+#p2{
+    font-style:normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#p1{
+    font-size: 25px;
+}
+
+#p5{
+    font-family:cursive;
+}
+#p6{
+    font-family: "Roboto", sans-serif;
+}

@@ -1,0 +1,19 @@
+p {
+  background-color: rgb(181, 242, 240);
+}
+
+.para {
+  color: rgb(237, 100, 187);
+}
+
+#prgf {
+  color: rgb(213, 19, 19);
+}
+
+article {
+  background-color: burlywood;
+}
+
+address, article {
+  width: 500px;
+}

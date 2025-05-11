@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div>
+        <table>
+            <td>
+                <h1 id="head1">Responsive <br> Registration <br> Form</h1>
+            </td>
+            <td>
+                <form>
+                    <fieldset id="fs1">
+                        <h1 id="head2">Event Registration</h1>
+                        
+                        <section id="sec">
+
+                            <label for="uname">Name:</label>
+                        
+                            <input type="text" id="uname" name="uname" placeholder="enter your name">
+                            
+                
+                
+                            <label for="mail">Email:</label>
+                            
+                            <input type="email" id="mail" name="mail" placeholder="enter your email">
+                            
+                
+                
+                            <label for="mob">Phone:</label>
+                            
+                            <input type="tel" id="mob" name="mob" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required placeholder="123-456-7890">
+                        
+
+                        </section>
+                    
+            
+            
+                        <label for="occupation">Occupation:</label>
+                        
+                        <select name="occupation" id="occupation">
+                            <option value="">Default</option>
+                            <option value="engineer">Engineer</option>
+                            <option value="docter">Docter</option>
+                            <option value="teacher">Teacher</option>
+                        </select>
+                    
+            
+                        <div>
+                            <p>Topic of Interest : </p>
+
+                            <input type="checkbox" name="Topic of Interest" id="html">
+                            
+                            <label for="html" style="display: inline; margin-right: 15px;">HTML</label>
+                        
+                            <input type="checkbox" name="Topic of Interest" id="css">
+                            
+                            <label for="css" style="display: inline; margin-right: 15px;">CSS</label>
+                            
+                            <input type="checkbox" name="Topic of Interest" id="js">
+                        
+                            <label for="js" style="display: inline;">JavaScript</label>
+                        </div>
+            
+                        
+            
+                        <p id="com">Comments : </p>
+                        <textarea name="comment" id="comment"></textarea>
+            
+                        
+                        <input  id="reg" type="submit" value="register">
+            
+            
+                    </fieldset>
+                </form>
+            </td>
+        </table>
+    </div>
+</body>
+</html>

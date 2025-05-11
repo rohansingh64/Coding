@@ -1,0 +1,35 @@
+.container{
+    border: solid black 3px;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.divclass{
+    font-size: 10px;
+    border: solid red 2px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+#div1{
+    background-color: aquamarine;
+}
+
+#div2{
+    background-color: rgb(127, 255, 161);
+}
+
+#div3{
+    background-color: rgb(165, 127, 255);
+}
+
+#div4{
+    background-color: rgb(255, 223, 127);
+}
+
+@media (max-width: 960px) {
+    .container{
+        flex-direction: column;
+    }
+}

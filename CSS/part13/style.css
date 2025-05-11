@@ -1,0 +1,24 @@
+.div1{
+    border: solid black 3px;
+    width: 800px;
+}
+p{
+    padding: 10px;
+}
+
+#mp{
+    height: 200px;
+    width: 150px;
+    float: right;
+    border: solid red 1px;
+    
+}
+
+#bs{
+    height: 200px;
+    width: 150px;
+    float: right;
+    clear: right;
+    border: solid red 1px;
+    
+}

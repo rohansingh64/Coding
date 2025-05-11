@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS Priority</title>
+        <link rel="stylesheet" href="style.css" />
+        <style>
+            .csstype {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <!--   priority of inline > internal > external CSS  if link of css is write above and style tag below-->
+
+        <!--   priority of inline > external > internal CSS  if link of css is write below and style tag above-->
+
+        <!--  jo paas hoga priority high -->
+
+        <!-- by using !important most priority-->
+
+        <h1 class="csstype" style="color: blue">this is first heading.</h1>
+        <h1 class="csstype">this is second heading.</h1>
+        <h1 class="csstype2">this is third heading.</h1>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+h1{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    width:600px;
+    text-align: center;
+}
+
+p{
+    width: 600px;
+    background-color: rgb(243, 228, 157);
+    color: blue;
+    border: solid rgb(0, 60, 255) 2px;
+    border-radius: 5px;
+}
+
+#p1{
+    padding: 50px;
+    margin: 30px 50px;     
+    
+    /* margin 30 vertical  50 horizontal */
+}
+#p2{
+    /* padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 60px; */
+
+    /* sort hand method ---> padding: top right bottom left values; */
+
+    padding: 30px 40px 50px 60px;
+}
+
+#p3{
+
+    /* padding : vertical horizontal values; */
+
+    padding:  20px 50px;
+    margin: 100px;
+
+}
+
+#p4{
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: 50px;
+}
+
+#p5{
+    margin: 80px 100px 200px 150px ;
+}
+

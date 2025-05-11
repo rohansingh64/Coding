@@ -1,0 +1,164 @@
+
+
+
+/*        justify content   align items  align content   gap row gap  col gap   
+            are properties of flex box not flex items         */
+
+
+/*        flex */
+
+
+
+.divtag{
+
+    border: solid black 2px;
+
+    height: 1000px;
+
+    display: flex;
+
+    /* now #divtag becomes flex box and items inside it 1,2,3,4 becomes flex items */
+
+
+    /* flex-direction: row; by default
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse; */
+
+
+
+    /* flex-wrap: nowrap; by default (here flex items squeezes)
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+
+
+    /* sort-hand notation for direction and wrap */
+
+    /* for below code 
+
+    flex-direction: row;
+    flex-wrap: wrap; 
+
+    sort-hand notation is -->
+
+    flex-flow: row wrap;
+    
+    */
+
+
+    /* flex-flow: row wrap; */
+
+    /* justify content -->  items placed(justify) w.r.t main axis */
+
+    /* justify-content: start; */
+
+    /* other values space-around   space-between  space-evenly  start end center  */
+
+
+
+
+    /* align-items -->  items placed(aligned) w.r.t cross axis */
+
+    /* align-items:start; */
+
+    /* other values  start end center  stretch */
+
+
+
+
+
+    /* align-content --> align contens when wrap is applied manages space between items
+        this had no effect when wrap is nowrap because at that time items not moves but squeezes
+    */
+
+
+    /* align-content:start; */
+
+    /* other values :  start end center   space-around   space-between  space-evenly  strech */
+
+
+    /* gap: row_value col_value;  or  gap: value;
+    
+        row-gap: value;
+        column-gap value;
+
+    */
+
+    
+
+
+}
+.divclass{
+
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    font-size: 50px;
+}
+
+#div1{
+
+    border: solid red 1px;
+    background-color: rgba(0, 255, 255, 0.683);
+    /* order: 1000; */
+    /* flex-shrink: 3;    */  
+    
+    /*  related to shrinking speed */
+
+
+
+
+    /* flex-grow: 10; */   
+
+    /*    related to taking how much space compare to 
+    other and growing speed to origonal to that growed space size*/
+
+
+
+    /* flex-basis: 300px; */
+
+    /* sets size of flex item box main size (length parallel to main axis of flex box) */
+    
+
+    /* sorthand notation----->   flex: flex-grow_value  flex-shrink_value  flex-basis_value */
+
+
+    /* flex: 3 2 100px; */
+
+
+
+
+
+    /* align-self -->  align particular flex item w.r.t cross axis (it overrides align-items ) */
+
+    /* align-self: center; */
+
+    /* other values  start end center stretch  etc */
+
+}
+
+#div2{
+
+    border: solid red 1px;
+    background-color: rgba(0, 42, 255, 0.421);
+    /* order:200; */
+    /* flex-grow: 5; */
+}
+
+#div3{
+
+    border: solid red 1px;
+    background-color: rgba(217, 255, 0, 0.608);
+    /* order:56; */
+    
+}
+
+#div4{
+
+    border: solid red 1px;
+    background-color: rgba(255, 0, 102, 0.484);
+    /* order:78; */
+    /* align-self: end; */
+    
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Toggle Answer</title>
+  <style>
+    .answer {
+      display: none;
+      margin-top: 10px;
+      color: #333;
+    }
+    .toggle-btn {
+      cursor: pointer;
+      font-size: 24px;
+      border: none;
+      background: none;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="toggle-btn" onclick="toggleAnswer(this)">+</button>
+  <div class="answer">This is the answer that will be shown or hidden.</div>
+
+  <script>
+    function toggleAnswer(button) {
+      const answerDiv = button.nextElementSibling;
+      const isHidden = answerDiv.style.display === "none" || answerDiv.style.display === "";
+
+      answerDiv.style.display = isHidden ? "block" : "none";
+      button.textContent = isHidden ? "-" : "+";
+    }
+  </script>
+
+</body>
+</html>

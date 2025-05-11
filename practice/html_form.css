@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+    height: 200px;
+}
+.tableform{
+    margin: 20px;
+}
+.full{
+    margin: 10px;
+    padding: 25px;
+    padding-top: 5px;
+    padding-left: 50px;
+    height:max-content;
+}
+#forbeside{
+    display: flex;
+    align-items: center;
+}
+.vl{
+    width: 10px;
+    height: 270px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+.rrf{
+    color: white;
+    font-size: 40px;
+}
+.fs{
+    border: 3px solid rgb(82, 235, 148);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #86B4EB;
+    width: 800px;
+    height: 615px;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.ER{
+    margin-bottom: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+.fill{
+    width: 100%;
+    height: 30px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#sub{
+    width: 750px;
+    height: 50px;
+    background-color: blueviolet;
+}
+#sub:hover{
+    width: 745px;
+    height: 55px;
+    background-color: rgb(161, 56, 247);
+}
+.fill{
+    border: solid blue 1px;
+    border-radius: 3px;
+}
+.para1{
+    margin-bottom: 5px;
+}
+.para2{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+label{
+    display: block;
+}
+.lab{
+    display: inline;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+#com{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding: 3px;
+}

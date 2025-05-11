@@ -1,0 +1,71 @@
+.div1{
+    border: solid red 2px;
+    height: 2000px;
+    background-color: cadetblue;
+}
+
+.div2{
+
+    border: solid blue 2px;
+    height: 1500px;
+    background-color: rgba(141, 160, 95, 0.768);
+    color: red;
+    text-align: center;
+
+}
+
+.imgclass{
+
+    margin: 10px;
+    border: solid blue 2px;
+
+}
+
+/* apply relative position on image 2 */
+/* maintain gap and relative to window page  */
+
+/* #img2{
+
+    position: relative;
+    top: 100px;    
+
+} */
+
+/* apply absolute position on image 3 */
+/* not maintain gap and W.R.T to parent container  */
+
+/* #img3{
+
+    position: absolute;
+    top: 250px;   
+
+} */
+
+
+
+/* apply fixed position on image 3 */
+/*  fixed W.R.T window page screen  */
+
+#img3{
+
+    position: fixed;
+    top: 170px;
+
+}
+
+
+/* apply sticky position on image 1 */
+/*  sticky W.R.T parent container only */
+
+#img1{
+
+    position: sticky;
+    top: 150px;
+
+}
+
+
+
+
+
+

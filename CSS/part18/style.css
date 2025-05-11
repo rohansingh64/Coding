@@ -1,0 +1,34 @@
+.imgdiv{
+    border: solid red 2px;
+    width:200px;
+    height: 200px;
+    margin: 3px;
+}
+.biggercontainer{
+    border: solid black 2px;
+    background-color: #0ed2c8ab;
+    display: flex;
+    justify-content: space-between;
+}
+.text1,.text2{
+    border: solid black 2px;
+    padding: 2px;
+    margin: 3px;
+}
+
+
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1080px) {
+
+    .biggercontainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

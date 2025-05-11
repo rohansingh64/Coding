@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form 4</title>
+  <link rel="stylesheet" href="html_form.css">
+</head>
+<body>
+  <div class="full">
+
+    <table>
+      <tr>
+        <td class="tableform">
+          <div id="forbeside">
+            <div class="vl"></div>
+            <div class="rrf">
+              <h1>Responsive</h1>
+              <h1>Registration</h1>
+              <h1>Form</h1>
+            </div>
+          </div>
+        </td>
+        <td>
+          <div>
+            <form>
+              <fieldset class="fs">
+                <h1 class="ER">Event Registration</h1>
+                <div>
+                  <label for="name">Name: </label>
+                  <input type="text" id="name" class="fill" placeholder="enter your name" required>
+                  <br>
+                  <p class="para1">Gender:</p>
+                  <input type="radio" id="male" class="gender" value="male" name="gender">
+                  <label class="lab" for="male">Male</label>
+                  <input type="radio" id="female" class="gender" value="female" name="gender">
+                  <label class="lab" for="female">Female</label>
+                  <label for="email">Email: </label>
+                  <input type="mail" id="email" class="fill" placeholder="enter your mail" required>
+                  <br>
+                  <label for="no">Phone: </label>
+                  <input type="tel" id="no" pattern="\d{10}" maxlength="10" placeholder="123-456-7890" class="fill" required>
+                  <br>
+                  <label for="occ">Occupation</label>
+                  <select name="occ" id="occ">
+                    <option value="none" selected>select Occupation</option>
+                    <option value="Engineer">Engineer</option>
+                    <option value="Doctor">Doctor</option>
+                    <option value="Teacher">Teacher</option>
+                  </select>
+                  <br>
+                  <p class="para2" >Type of interest :</p>
+                  <input type="checkbox" class="toi" value="html" id="html" name="toi">
+                  <label class="lab" for="html">HTML</label>
+                  <input type="checkbox" class="toi" value="css" id="css" name="toi">
+                  <label class="lab" for="css">CSS</label>
+                  <input type="checkbox" class="toi" value="js" id="js" name="toi">
+                  <label class="lab" for="js">JS</label>
+                  <br>
+
+                  <p>Comments: </p>
+                  <textarea name="Comment" id="com" cols="50" rows="5"></textarea>
+
+                  <br>
+                  <input type="submit" id="sub" value="submit" name="register">
+                  <br>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</body>
+</html>
